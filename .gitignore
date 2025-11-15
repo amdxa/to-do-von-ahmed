@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ------------------------------------------------
+
+# Ignoriere die lokale Datenbank im Backend-Ordner
+backend/db.sqlite3
+
+# Ignoriere die virtuelle Umgebung im Backend-Ordner
+backend/venv/
+
+# Ignoriere den zukünftigen Node-Ordner im Frontend
+frontend/node_modules/
+
+# Ignoriere zukünftige React-Build-Ordner
+frontend/build/
