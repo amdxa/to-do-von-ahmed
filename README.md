@@ -76,8 +76,6 @@ cd to-do-von-ahmed
     ```
     *Das Backend läuft jetzt auf `http://localhost:8000`.*
 
-    ### 2. Frontend starten (Terminal 2)
-
     ### 3. Frontend starten (Terminal 2)
 
 1.  Öffnen Sie ein **neues Terminal** und wechseln Sie in das Frontend-Verzeichnis:
