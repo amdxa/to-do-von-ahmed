@@ -45,6 +45,7 @@ Um dieses Projekt lokal zu starten, benötigen Sie **Node.js (npm)** und **Pytho
 ```bash
 git clone [https://github.com/amdxa/to-do-von-ahmed.git](https://github.com/amdxa/to-do-von-ahmed.git)
 cd to-do-von-ahmed
+```
 
 ### 2. Backend starten (Terminal 1)
 
@@ -57,7 +58,9 @@ cd to-do-von-ahmed
     # (Windows)
     python -m venv venv
     .\venv\Scripts\activate
-    
+    ```
+
+    ```bash
     # (macOS / Linux)
     python3 -m venv venv
     source venv/bin/activate
