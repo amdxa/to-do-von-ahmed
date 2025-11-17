@@ -77,7 +77,7 @@ cd to-do-von-ahmed
     ```bash
     python manage.py runserver
     ```
-    *Das Backend läuft jetzt auf `http://localhost:8000`.*
+    *Das Backend läuft jetzt auf `[http://localhost:8000](http://localhost:8000/api/todos/)`.*
 
     ### 3. Frontend starten (Terminal 2)
 
