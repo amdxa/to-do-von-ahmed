@@ -1,5 +1,9 @@
 # To-Do-von-Ahmed
 
+   ## 📸 Screenshot
+
+![Screenshot der To-Do App](./assets/mockup.png)
+
 # Full-Stack To-Do App (Django & React)
 
 Dies ist eine einfache, aber voll funktionsfähige To-Do-Anwendung, die als Full-Stack-Projekt erstellt wurde. Sie verfügt über ein Django REST Framework-Backend und ein modernes React-Frontend (erstellt mit TypeScript und gestylt mit Tailwind CSS).
@@ -96,7 +100,4 @@ cd to-do-von-ahmed
     *Die React-App wird automatisch in Ihrem Browser unter `http://localhost:3000` geöffnet und verbindet sich mit dem Backend.*
 
 
-    ## 📸 Screenshot
-
-![Screenshot der To-Do App](./assets/mockup.png)
-
+ 
