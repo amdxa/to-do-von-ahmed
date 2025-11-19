@@ -6,21 +6,21 @@
 
 # Full-Stack To-Do App (Django & React)
 
-Dies ist eine einfache, aber voll funktionsfähige To-Do-Anwendung, die als Full-Stack-Projekt erstellt wurde. Sie verfügt über ein Django REST Framework-Backend und ein modernes React-Frontend (erstellt mit TypeScript und gestylt mit Tailwind CSS).
+This is a simple yet fully functional To-Do application built as a full-stack project. It features a Django REST Framework backend and a modern React frontend (created with TypeScript and styled with Tailwind CSS).
 
-Das Projekt ist in einem Monorepo mit zwei Hauptverzeichnissen strukturiert:
-* `/backend` (Die Django REST API)
-* `/frontend` (Die React TS App)
+The project is structured in a monorepo with two main directories:
+* `/backend` (The Django REST API)
+* `/frontend` (The React TS App)
 
 ---
 
 ##  Features
 
-* **Vollständiges CRUD:** To-Dos erstellen, lesen, aktualisieren und löschen.
-* **Status-Management:** Jedes To-Do kann den Status "offen", "in Bearbeitung" oder "erledigt" haben.
-* **In-Place-Bearbeitung:** To-Dos können direkt in der Liste bearbeitet werden.
-* **Responsives Design:** Die Benutzeroberfläche ist dank Tailwind CSS vollständig responsiv.
-* **Saubere API:** Klare REST-Endpunkte für eine einfache Anbindung.
+* **Full CRUD:** Create, read, update, and delete To-Dos.
+* **Status-Management:** Each To-Do can have the status "open", "in progress" or "completed".
+* **In-Place-Editing:** To-Dos can be edited directly in the list.
+* **Responsive Design:** The user interface is fully responsive thanks to Tailwind CSS.
+* **clean API:** Clear REST endpoints for easy connection.
 
 ---
 
@@ -30,34 +30,34 @@ Das Projekt ist in einem Monorepo mit zwei Hauptverzeichnissen strukturiert:
 * Python
 * Django & Django REST Framework
 * django-cors-headers
-* SQLite3 (als Entwicklungsdatenbank)
+* SQLite3 (as development database)
 
 ### Frontend
 * React
 * TypeScript
 * Tailwind CSS
-* Axios (für API-Anfragen)
+* Axios (for API requests)
 
 ---
 
-## 🛠️ Lokale Installation & Ausführung
+##  Local Installation & Execution
 
-Um dieses Projekt lokal zu starten, benötigen Sie **Node.js (npm)** und **Python** (mit `pip`).
+To start this project locally, you will need **Node.js (npm)** and **Python** (with `pip`).
 
-### 1. Projekt klonen
+### 1. Clone the Project
 
 ```bash
 git clone [https://github.com/amdxa/to-do-von-ahmed.git](https://github.com/amdxa/to-do-von-ahmed.git)
 cd to-do-von-ahmed
 ```
 
-### 2. Backend starten (Terminal 1)
+### 2. Start the Backend (Terminal 1)
 
-1.  Wechseln Sie in das Backend-Verzeichnis:
+1.  Switch to the backend directory:
     ```bash
     cd backend
     ```
-2.  Erstellen Sie eine virtuelle Umgebung und aktivieren Sie sie:
+2.  Create a virtual environment and activate it:
     ```bash
     # (Windows)
     python -m venv venv
@@ -69,35 +69,35 @@ cd to-do-von-ahmed
     python3 -m venv venv
     source venv/bin/activate
     ```
-3.  Installieren Sie die Python-Abhängigkeiten:
+3.  Install the Python dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-4.  Führen Sie die Datenbank-Migrationen durch:
+4.  Run the database migrations:
     ```bash
     python manage.py migrate
     ```
-5.  Starten Sie den Django-Server:
+5.  Start the Django server:
     ```bash
     python manage.py runserver
     ```
-    *Das Backend läuft jetzt auf `http://localhost:8000/api/todos/`.*
+    *The backend is now running `http://localhost:8000/api/todos/`.*
 
-    ### 3. Frontend starten (Terminal 2)
+    ### 3. start Frontend (Terminal 2)
 
-1.  Öffnen Sie ein **neues Terminal** und wechseln Sie in das Frontend-Verzeichnis:
+1.  Open a **new terminal** and switch to the frontend directory:
     ```bash
     cd frontend
     ```
-2.  Installieren Sie die Node.js-Abhängigkeiten:
+2.  Install the Node.js dependencies:
     ```bash
     npm install
     ```
-3.  Starten Sie den React-Entwicklungsserver:
+3.  Start the React development server:
     ```bash
     npm start
     ```
-    *Die React-App wird automatisch in Ihrem Browser unter `http://localhost:3000` geöffnet und verbindet sich mit dem Backend.*
+    *The React app will automatically open in your browser at `http://localhost:3000` and connect to the backend.*
 
 
  
